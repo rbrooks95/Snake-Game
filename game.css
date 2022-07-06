@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  box-shadow: black 20px 10px 50px;
+  background-color: white;
+}
