@@ -32,6 +32,21 @@ const rightDir = 39;
 const upDir = 38;
 const downDir = 40;
 
+let snakeDirection = rightDir;
+
+function directions(changed) {
+  if (changed === snakeDirection) return;
+  if (changed === leftDir && snakeDirection != rightDir) {
+    snakeDirection = changed;
+  } else if (changed === upDir && snakeDirection !== downDir) {
+    snakeDirection = changed;
+  } else if (changed == rightDir && snakeDirection != leftDir) {
+    snakeCurrentDirection = changed;
+  } else if (snakeDirection == downDir && snakeCurrentDirection != UP_DIR) {
+    snakeDirection = changed;
+  }
+}
+
 // function snakeSpeed() {
 //   console.log("faster");
 //   setInterval(snakeSpeed, 1000 / speed);
