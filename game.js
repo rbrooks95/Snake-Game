@@ -26,6 +26,11 @@ function createFood() {
 }
 
 // snake head
+// for me personally i looked up the key codes for the arrow keys
+const leftDir = 37;
+const rightDir = 39;
+const upDir = 38;
+const downDir = 40;
 
 // function snakeSpeed() {
 //   console.log("faster");
