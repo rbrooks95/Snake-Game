@@ -13,3 +13,11 @@ a {
 a:hover {
   color: blueviolet;
 }
+div {
+  text-align: center;
+}
+img {
+  width: 600px;
+  length: 600px;
+  border: solid 10px rgb(20, 20, 20);
+}
