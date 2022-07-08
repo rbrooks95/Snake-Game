@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 body {
-  margin: 0px;
+  /* margin: 0px;
   padding: 0px;
   display: flex;
   flex-direction: column;
@@ -8,29 +8,13 @@ body {
   align-items: center;
   background-color: green;
   font-family: "Inter", sans-serif;
-}
-
-div {
-  width: 400px;
-  height: 400px;
-  box-shadow: black 20px 10px 50px;
-  background-color: white;
-}
-
-body {
-  -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
-}
-/* SCORE STYLES END */
-
-body {
+  text-align: center; */
   background-color: darkslategrey;
   text-align: center;
 }
 
 /* GAME BOARD STYLES */
-#gameContainer {
+#game {
   /*
 	width and height of .gameBoardPixel should 1/40 of the width and height of #gameContainer,
 	because it is used in calculation in the jscript.js file
@@ -47,7 +31,7 @@ body {
   box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
 }
 
-.gameBoardPixel {
+.game-pixel {
   /* background-color: slategrey; */
   /*
 	width and height of .gameBoardPixel should 1/40 of the width and height of #gameContainer,
@@ -61,7 +45,7 @@ body {
 /* GAME BOARD STYLES END*/
 
 /* SNAKE STYLES */
-.snakeBodyPixel {
+.snake-body {
   background-color: #fd6401;
   box-shadow: 0 0 5px #fd6401;
 }
@@ -73,15 +57,7 @@ body {
 }
 /* FOOD STYLES END*/
 
-/* SCORE STYLES */
-#scoreContainer {
-  width: 40vw;
-  display: flex;
-  margin: auto;
-  justify-content: space-around;
-}
-
-.scoreBoard {
+.score {
   border-radius: 10px;
   border: solid 5px slategrey;
   color: dimgray;
