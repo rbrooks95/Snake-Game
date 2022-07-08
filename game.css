@@ -53,3 +53,12 @@ body {
 .food {
   background-color: #68e768;
 }
+/* returning home */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blueviolet;
+}
