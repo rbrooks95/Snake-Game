@@ -33,7 +33,6 @@ body {
 }
 
 .game-pixel {
-  /* background-color: slategrey; */
   /*
 	width and height of .game-pixel should 1/40 of the width and height of #game,
 	because it is used in calculation in the jscript.js file
@@ -47,7 +46,7 @@ body {
 
 /* SNAKE STYLES */
 .snake-body {
-  background-color: yellowgreen;
+  background-color: yellow;
   box-shadow: 0 0 5px #fd6401;
 }
 
