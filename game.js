@@ -3,7 +3,7 @@ const pixelCount = 40;
 const squarePixCount = Math.pow(pixelCount, 2);
 
 let foodAte = 0;
-let highScore = document.querySelector("#top-score");
+let highScore = 0;
 
 const game = document.getElementById("game");
 
@@ -116,7 +116,8 @@ const snakeMovement = () => {
     // Update score
     document.getElementById("points-earned").innerHTML = foodAte;
     if (foodAte > highScore) {
-      highScore.innerHTML = foodAte;
+      highScore = foodAte;
+      document.querySelector("#top-score").innerHTML = highScore;
     }
 
     // Increase Snake length:
