@@ -33,10 +33,6 @@ body {
 }
 
 .game-pixel {
-  /*
-	width and height of .game-pixel should 1/40 of the width and height of #game,
-	because it is used in calculation in the jscript.js file
-	*/
   width: 1vw;
   height: 1vw;
   border-radius: 10px;
