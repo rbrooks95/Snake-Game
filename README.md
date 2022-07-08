@@ -26,4 +26,4 @@ The player controls a snake, which roams around on a bordered plane, picking up 
 
 ### [MarkDown](https://www.markdownguide.org/cheat-sheet/)
 
-### [Box Shadow](https://cssgenerator.org/box-shadow-css-generator.html
+### [Box Shadow](https://cssgenerator.org/box-shadow-css-generator.html)
